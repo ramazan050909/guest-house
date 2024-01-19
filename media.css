@@ -1,0 +1,73 @@
+@media (max-width: 1199px){
+    .container{
+        width: 1000px;
+    }
+}
+
+@media (max-width: 999px){
+    .container{
+        width: 800px;
+    }
+    .weekend h1{
+        font-size: 70px;
+        color: khaki;
+    }
+    .rooms__card{
+        width: 233px;
+    }
+}
+
+@media (max-width: 799px){
+    .container{
+        width: 600px;
+    }
+    .weekend h1{
+        font-size: 45px;
+        color: red;
+    }
+    .rooms__cards{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 50px;
+    }
+    .together__box{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 50px;
+    }
+
+    .together__right{
+        width: 100%;
+    }
+}
+
+@media (max-width: 599px){
+    .container{
+        width: 400px;
+    }
+    .banner h2{
+        font-size: 35px;
+    }
+    .reviews__box{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 50px;
+    }
+    .reviews__card{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .weekend h1{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 399px){
+    .container{
+        width: 85%;
+    }
+    .book__info{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+}
